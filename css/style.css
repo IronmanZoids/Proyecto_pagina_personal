@@ -1,0 +1,49 @@
+/* Con esto eliminamos los margenes por default a todos los elementos */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* p { 
+  margin: 50px 0 50px 30px;
+  padding: 20px;
+  border: solid 1px red;
+}
+img{
+    width: 20px;
+} */
+
+/* Barra de Menu */
+a{
+    text-decoration: none;
+    color:white
+}
+li{
+    margin: 12px;
+    padding: 10px;
+    border:solid 1px skyblue;
+    background-color: rgb(95, 146, 240);
+    width: 200px;
+    text-align: center;
+    /* Redondea los bordes */
+    border-radius: 30px;
+    /* sombra de elementos */
+    box-shadow: 3px 3px 3px black;
+}
+p{
+    color: rgb(95, 146, 240);
+    width: 450px;
+    font-size: 30px;
+    text-shadow: 15px 9px 9px black;
+    letter-spacing: 3px;
+}
+img{
+    width: 150px;
+}
+header{
+    background: linear-gradient(rgb(131, 131, 219), rgb(124, 192, 212));
+    padding: 15px;
+    display: flex;
+}
+ul{
+      /* display: flex;   */
+}
