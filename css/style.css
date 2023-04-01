@@ -28,22 +28,101 @@ li{
     border-radius: 30px;
     /* sombra de elementos */
     box-shadow: 3px 3px 3px black;
+    /* Estilo de lista */
+    list-style: none;
 }
-p{
+li:hover{
+    opacity: 0.5;
+    background-color:  skyblue;
+    color: black;
+    font-size: 3em;
+}
+nav{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-between;
+}
+nav p{
     color: rgb(95, 146, 240);
     width: 450px;
     font-size: 30px;
     text-shadow: 15px 9px 9px black;
     letter-spacing: 3px;
 }
-img{
-    width: 150px;
-}
+nav img{
+    width: 15%;
+} 
 header{
-    background: linear-gradient(rgb(131, 131, 219), rgb(124, 192, 212));
+    background: linear-gradient(rgb(131, 131, 219), rgb(124, 192, 212),#fff );
     padding: 15px;
-    display: flex;
+    width: 100%;
+    height: 100vh;
 }
 ul{
-      /* display: flex;   */
+       display: flex;   
+}
+footer{
+    background-color: blue; 
+} 
+.caja{
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cajita{
+    width: 50%;
+}
+.caja img{
+    width: 80%;
+} 
+h1{
+  font-size: 4em;
+  text-align: right; 
+} 
+span{
+    color: rgb(95, 146, 240);
+    font-style: italic;
+    text-shadow: 3px 3px 3px black;
+}
+.cajita p{
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Empiza acerca de */
+.acercade{
+ width: 100%;
+ height: 80vh; 
+ background-image: url("../img/vectorAzul.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover; /*ocupa todo */
+ align-items: center;
+ justify-content: center;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+.acercade2{
+    width: 60%;
+    height: 50vh;
+    text-align: justify;
+    justify-content: center;
+    /* linear-gradient(rgb(131, 131, 219), rgb(124, 192, 212),#fff ); */
+    background: linear-gradient(to right,rgb(124, 192, 212) , rgb(131 131 219 / 59%) ,#fff);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 30px;
+}
+.acercade1{
+    align-items: center;
+    justify-content: center;
+    display: flex;  
 }
