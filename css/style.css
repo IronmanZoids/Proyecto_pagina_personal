@@ -11,7 +11,7 @@
 img{
     width: 20px;
 } */
-
+/* Desde aqui para pantallas de monitor  */
 /* Barra de Menu */
 a{
     text-decoration: none;
@@ -31,6 +31,7 @@ li{
     /* Estilo de lista */
     list-style: none;
 }
+/* Al pasar el mouse */
 li:hover{
     opacity: 0.5;
     background-color:  skyblue;
@@ -56,12 +57,13 @@ nav img{
 header{
     background: linear-gradient(rgb(131, 131, 219), rgb(124, 192, 212),#fff );
     padding: 15px;
-    width: 100%;
+    width: 95%;
     height: 100vh;
 }
 ul{
        display: flex;   
 }
+/* pie de pagina */
 footer{
     background-color: blue; 
 } 
@@ -126,3 +128,103 @@ h2{
     justify-content: center;
     display: flex;  
 }
+.hamburguesa{
+    display: none;
+}
+#menu {
+    display: none;
+}
+.llama{
+    display: flex;
+}
+/* logo de wahatsapp */
+.whatsaap{
+    position: fixed;
+    width: 100px;
+    bottom: 25px;
+    right: 25px;
+}
+/* efecto paralax la imagen se queda atras fijadaefecto paralage  */
+.paralax{
+    width: 100%;
+    height: 40vh;
+    background: url('../img/edificio.jpg');
+    background-size: contain;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.paralax p{
+    width: 60%;
+    font-size: 3em;
+    text-align: center;
+    color:#e3d0d0;
+    text-shadow: 0 0 7px #fff ,
+                0 0 14px #fff ,
+                0 0 21px #fff,
+                    0 0 42px #7dcde6,
+                    0 0 82px #7dcde6,
+                    0 0 120px #7dcde6,
+                0 0 120px #6fe688,
+                0 0 140px #6fe688,
+                0 0 160px #6fe688  ;
+}
+.portafolio{
+    width: 100%;
+    height: 120vh; 
+    background-size: contain;
+}
+/*   Modelo responsivo
+    >900      =Un  Monitor
+    900 y 600 =Tablet
+    <= 599    =Celular
+*/
+/* Responsivo para celular desde aqui */
+ 
+ @media(max-width:900px) { 
+   header{
+    display: block;
+    /* color: antiquewhite;  */
+   }
+   nav ul{ 
+        display: none; 
+        position: absolute;
+        top:50px;
+        right: 100px;
+   }
+   .hamburguesa{
+        display: block;
+        width: 8em;
+    }
+    li:hover{
+        opacity: 1;
+        background-color: #c8e5f1;
+        color: #910909f2;
+        font-size: 1.5em;
+        font-weight: bold;
+    } 
+    input:checked ~ul{
+        display: block;
+        background-color: rgb(87 95 193 / 65%);
+        box-shadow: 3px 5px 3px black;
+        border-radius: 20px;
+    }
+    .cajita {
+        display: none;
+    }
+    .nombre{
+        display: block;
+        width: 90%;
+        text-align: center;
+    }
+    .nombre h1{
+        text-align: center;
+    }
+    .acercade2{
+        width: 90%;
+    }
+ }
+
+ 
