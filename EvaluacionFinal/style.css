@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Menu */
+header{
+    width: 90%;
+    margin:auto;
+    height: 10vh; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 15%;
+}
+ul{
+    display:flex;
+    margin: 10px;
+    padding: 5px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+section{
+    height: 24vh;
+    margin-top: auto;
+    margin: 15px; 
+    width: 100%;
+}
+footer{
+    width: 90%;
+    margin:auto;
+    /* background-color: rgb(20, 35, 171); */
+    height: 10vh;
+}
+nav{
+    display: flex;
+    width: 40%;
+    height: 10vh;
+    align-items: center;
+}
+.registro li{
+    border:solid;
+    border-radius: 30px;
+    padding: 5px;
+}
+.registro li:hover{
+    background-color: black;
+    color:white;
+}
+/* comienza las cja de texto */
+.seccion1{ 
+    display: flex;
+    justify-content: center; 
+    background-color:rgb(1 98 65);
+}
+.texto{
+    /* display: flex; */
+    align-items: center;
+    width: 50%;
+}
+.texto h1{
+    text-align: center; 
+    font-size: 2.1em;
+    color:white;
+    letter-spacing: 5px; 
+}
+.texto p{ 
+    color:white;
+    letter-spacing: 5px; 
+}
+.texto span {
+    text-decoration: underline;
+    color:white;
+}
+/* seccion 2 */
+.seccion2{
+    display: flex;
+}
+.imagen2{
+    width: 47%;
+    height: 24vh; 
+    background-image: url('https://d36tnp772eyphs.cloudfront.net/blogs/2/2019/02/alebrijes-en-oaxaca-940x626.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.texto2{
+    width: 53%;
+    height: 24vh; 
+    background-color: red;
+    color: white;
+    letter-spacing: 2em;
+    text-align: center;
+}
+.texto2 h1{
+    font-size: 41px;
+}
+.texto2 p{
+    font-size: 1.5em;
+    letter-spacing: .3em;
+    padding: 1em;
+}
+.realiza{  
+    border: solid 2px;
+    border-color: white;
+    font-size: 1em;
+    letter-spacing: 0.5em;
+    border-radius: 30px;
+    padding: 10px;
+}
+/* SECCION 3 */
+.seccion3{
+    display: flex;
+    width: 100%;
+    background-size: red;
+}
+.texto3{
+    width: 47%;
+    height: 24vh; 
+    background-color: red;
+    color: white;
+    letter-spacing: 2em;
+    text-align: center; 
+}
+.texto3 h1{
+    font-size: 1em;
+}
+.texto3 p{
+    font-size: 1.5em;
+    letter-spacing: .3em;
+    padding: 1em;
+}
+.texto4{
+    width: 50%;
+    height: 24vh; 
+    background-image: url('https://jacoboymariaangeles.com/wp-content/uploads/2023/01/DTM-CHANGO-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    background-color: red;
+}
+footer span img{
+    width: 3%;
+     
+}
